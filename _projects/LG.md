@@ -1,8 +1,8 @@
 ---
 title: LG-Aimers
 description: LG-Aimers-Hackathon
-image: "https://www.lgresearch.ai/data/upload/image/blog/LG_AI_Research_LG_Aimer_Hackathon_thumbnail_c3d603fc1.png"
-date: 2024-01-11
+image: "LG.png"
+date: 2024.02.01 ~ 2024.02.26
 ---
 
 <p align="center">
@@ -64,9 +64,9 @@ Target = **`is_converted` , 영업성공여부**
 
 ### 대회 결과 
 
-| 전체랭킹   | 총점        |
-|-----------|------------|
-| 59위/844팀중 | 0.766316점 |
+| 전체랭킹   |      총점        |
+|----------------|----------------|
+| 59위/844팀중 |      0.766316점 |
 
 
 
