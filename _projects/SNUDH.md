@@ -6,7 +6,7 @@ date: 2023.12.06 ~ 2023.12.12
 ---
 
 # 2023 HealthCare AI Competetion SNUDH - [Oral image synthesis data for artificial intelligence learning project] 
-![2023 헬스케어 AI 경진대회(포스터](https://raw.githubusercontent.com/bab-korea/healthcare-ai-contest/main/headlthcare_ai_contest_poster.png)
+
 
 ## Table of Contents
 
@@ -46,15 +46,19 @@ The analysis of the training data revealed an imbalance between the labels. Thou
 - Not Decayed (0): 17000
 
 ## 2. Model Training Speed
+
 Large scale CNNs (such as ResNet, DenseNet, etc.) guarantee performance given sufficient data, but come with the trade-off of decreased training speed. Analyzing and adjusting oversampling, validation size, hyperparameters, and augmentation methods to conduct model selection within the competition period seemed insufficient. Hence, it was decided to utilize EfficientNet, which is efficient in terms of training speed while maintaining performance.
+
 The two models used (Pretrained = False) are as follows:
 - EfficientNet B0
-- EfficientNet B3 (about twice the size of EfficientNet B0)
+- EfficientNet B3 (approximately twice the size of EfficientNet B0)
+
 ### Model Performance
 | Model           | Params | f1-score       |
 |-----------------|--------|----------------|
 | EfficientNet B0 | 5.3M   | 0.98882171429196 |
 | EfficientNet B3 | 12M    | 0.9973782689708769 |
+
 
 ## 3. Hyperparameters
 - **Batch Size**: A batch size of 32 has been found to be optimal both in terms of training speed and model performance for around 30,000 data points.
@@ -89,11 +93,11 @@ Continuing training without improvement in performance becomes futile. Hence, ea
 # 2023 구강이미지 합성데이터 헬스케어 AI 경진대회
 
 구강이미지 합성 데이터 헬스케어 AI경진대회
-"2023 NIA 구강이미지 합성데이터셋 구축사업"의 일환으로 추진된 치과 구강이미지 합성 데이터 분야의 헬스케어 AI 경진대회 입니다.<p>
+"2023 NIA 구강이미지 합성데이터셋 구축사업"의 일환으로 추진된 치과 구강이미지 합성 데이터 분야의 헬스케어 AI 경진대회 입니다.
 구강이미지 합성데이터를 활용한 충치 치아 분류 AI모델 개발에 도전해보세요!
-<p>
+
 본 대회는 NAVER CLOUD PLATFORM의 고성능 클라우드 인프라 상에서 진행됩니다.
-<br>
+
 
 ## 대회주제
 구강 이미지 합성 데이터를 활용한 충치 치아를 분류하는 AI 모델 개발
@@ -105,14 +109,29 @@ Continuing training without improvement in performance becomes futile. Hence, ea
 - f1-score가 1점에 가까울 수록 높은 점수 부여 (f1-score를 점수로 환산하여 순위 선정)
 
 ## 결과 제출 형식
-* 프로그램 결과물 및 성능지표<br>
-  ① 프로그램 결과물(개발된 모델) : GPU서버 內 정답 디렉토리에 업로드  - 작성된 모델의 소스 파일 (사용한 언어 및 라이브러리의 버전이 작성된 파일)<br>
-  ② 성능지표 : GPU서버 內 성능지표 디렉토리에 업로드<br>
-* Report (기술문서) 제출<br>
- - 심사 후 수상 대상자 제한 제출  ※ 수상대상 참가자에게는 일정 및 진행사항에 대해 개별 안내드립니다.<br>
- - 결과 및 분석 레포트를 간단히 요약하여 PDF 파일 형태로 제출<br>
- - 레포트에 반드시 포함되어야 하는 내용은 제출팀의 이름, 모형에 대한 간단한 설명<br>
- - 보고서 분량은  A4 1page ~ 10page 이내<br>
+* 프로그램 결과물 및 성능지표
+  ① 프로그램 결과물(개발된 모델) : GPU서버 內 정답 디렉토리에 업로드  - 작성된 모델의 소스 파일 (사용한 언어 및 라이브러리의 버전이 작성된 파일)
+  ② 성능지표 : GPU서버 內 성능지표 디렉토리에 업로드
+* Report (기술문서) 제출
+ - 심사 후 수상 대상자 제한 제출  ※ 수상대상 참가자에게는 일정 및 진행사항에 대해 개별 안내드립니다.
+ - 결과 및 분석 레포트를 간단히 요약하여 PDF 파일 형태로 제출
+ - 레포트에 반드시 포함되어야 하는 내용은 제출팀의 이름, 모형에 대한 간단한 설명
+ - 보고서 분량은  A4 1page ~ 10page 이내
+
+
+## 경진대회 일정
+- 참가신청: 2023년 11월 30일(금) ~ 12월 12일(화)
+- 대회참가: 2023년 12월 06일(수) ~ 12월 12일(화) 18:00까지
+
+
+- 심사기간: 2023년 12월 14일(목) ~ 12월 15일(금)
+- 결과발표: 2023년 121월 16일(토)
+- 시상식: 2023년 12월 21일(수) 예정
+
+## 추진
+- 주관: 서울대학교 치과병원
+- 후원: 한국지능정보사회진흥원
+
 
 ## 시상 및 혜택
 - 총시상팀: 8개팀 / 총상금: 500만원
@@ -153,18 +172,7 @@ Continuing training without improvement in performance becomes futile. Hence, ea
    </tr>
 </table>
 
-## 경진대회 일정
-- 참가신청: 2023년 11월 30일(금) ~ 12월 12일(화)
-- 대회참가: 2023년 12월 06일(수) ~ 12월 12일(화) 18:00까지
 
-
-- 심사기간: 2023년 12월 14일(목) ~ 12월 15일(금)
-- 결과발표: 2023년 121월 16일(토)
-- 시상식: 2023년 12월 21일(수) 예정
-
-## 추진
-- 주관: 서울대학교 치과병원
-- 후원: 한국지능정보사회진흥원
 
 
 
