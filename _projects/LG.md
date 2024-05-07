@@ -5,9 +5,6 @@ image: "LG.png"
 date: 2024.02.01 ~ 2024.02.26
 ---
 
-<p align="center">
-  <img src="https://www.lgresearch.ai/data/upload/image/blog/LG_AI_Research_LG_Aimer_Hackathon_thumbnail_c3d603fc1.png" alt="LG" width="500" height="300">
-</p>
 
 # LG-Aimers
 ### **1. 영업 성공 여부 분류 경진대회 개요**
@@ -64,11 +61,7 @@ Target = **`is_converted` , 영업성공여부**
 
 ### 대회 결과 
 
-| 전체랭킹   |      총점        |
-|----------------|----------------|
-| 59위/844팀중 |      0.766316점 |
-
-
-
+전체랭킹  : 59th / 844
+총점 (f1-score) : 0.766316점
 
 
