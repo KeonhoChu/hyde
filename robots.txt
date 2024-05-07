@@ -1,1 +1,1 @@
-Sitemap: https://chemistryx.me/sitemap.xml
+Sitemap: https://keonhochu.github.io/hyde/sitemap.xml
